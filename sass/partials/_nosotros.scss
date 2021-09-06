@@ -1,0 +1,70 @@
+/*NOSOTROS*/
+
+.container2 {
+    background-color: rgba(169, 169, 169, 0.116);
+    width:100%;
+    height: auto;
+    display: grid;
+    font-family:'Montserrat', sans-serif;
+    color:black;
+    font-weight:lighter;
+  }
+
+
+    /*MOBILE STYLES*/
+  @media only screen and (max-width: 320px){
+    .container2{
+        width: 100%;
+        margin:0px;
+    }
+    .col1{
+        margin: 0px;
+        width: 60%;
+        align-items: center;
+    }
+    .col2{
+      margin: 10px;
+      text-align: center;
+      width: 80%;
+    }
+}
+  /*TABLET STYLES*/
+  
+  @media only screen and (min-width: 768px){
+    .container2{
+      display: grid;
+      width: 100%;
+      margin:0px;
+      grid-template-columns:auto;
+      grid-template-areas: "col1" "col1" "col2";
+  }
+  .col1{
+      margin: 0px;
+      width: 50%;
+  }
+  .col2{
+    margin: 9px;
+    width: 100%;
+  
+}
+    }
+  
+    /*DESKTOP STYLES*/
+  
+  @media only screen and (min-width: 1024px){
+    .container2{
+      display:  grid;
+      width: 100%;
+      margin:0px;
+      grid-template-columns:auto;
+      grid-template-areas: "col1" "col1" "col2";
+  }
+  .col1{
+      margin: 0px;
+      width: 30%;
+  }
+  .col2{
+      margin: 10px;
+      width: 30%;
+  }
+    }

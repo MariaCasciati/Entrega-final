@@ -1,0 +1,65 @@
+/*SERVICIOS*/
+
+.container4 {
+    margin: 1rem 1rem 5rem 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    padding: 10px;
+    background-image:url(/Imagenes/fondo2.jpg);
+    background-size:auto;
+
+}
+
+.col {
+    width: 350px;
+    height: 350px;
+    margin:30px 70px;
+    padding: 10px;
+    font-family:'Montserrat', sans-serif;
+    color:black;
+    font-weight:bold;
+    align-items: center;
+    align-content: stretch;
+    line-height: 1.5; 
+}
+
+@media only screen and (max-width: 320px){
+    .container4{
+        width: 100%;
+        margin:0px;
+    }
+    .col{
+        margin: 10px 10px 10px 50px;
+        width: 95%;
+    }
+} 
+    /*TABLET STYLES*/
+  
+  @media only screen and (min-width: 768px){
+    .container4{
+        width: 100%;
+        margin:0px;
+    }
+    .col{
+        margin: 10px 10px 10px 50px;
+        width: 95%;
+    }
+    }
+  
+    /*DESKTOP STYLES*/
+  
+  @media only screen and (min-width: 1024px){
+    .container4{
+        width: 100%;
+        margin:0px;
+    }
+    .col{
+        margin: 10px 10px 10px 50px;
+        width: 95%;
+    }
+    }
